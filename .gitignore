@@ -1,0 +1,92 @@
+# =====================================================
+#  Operating System
+# =====================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# =====================================================
+#  Editors / IDEs (machine-specific config)
+# =====================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.user
+
+# =====================================================
+#  STM32CubeIDE / Eclipse
+# =====================================================
+Debug/
+Release/
+.settings/
+.project
+.cproject
+.cproject_settings
+*.launch
+
+# =====================================================
+#  Keil MDK-ARM
+# =====================================================
+# Build output directories
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTE/
+MDK-ARM/DebugConfig/
+# Build output directory defined in the project (objects + listings)
+MDK-ARM/Encoder_localization/
+
+# Per-user GUI state and options (the project file .uvprojx IS tracked)
+MDK-ARM/*.uvguix*
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvopt
+MDK-ARM/*.scvd
+MDK-ARM/*.uvmpw
+MDK-ARM/JLinkLog.txt
+MDK-ARM/JLinkSettings.ini
+MDK-ARM/*.htm
+MDK-ARM/*.bak
+
+# =====================================================
+#  Compiled / build artifacts (any location)
+# =====================================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.elf
+*.axf
+*.map
+*.hex
+*.bin
+*.lst
+*.dep
+*.d
+*.crf
+*.lnp
+*.iex
+*.dmp
+*.out
+
+# =====================================================
+#  Python
+# =====================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# =====================================================
+#  Logs / temporary files
+# =====================================================
+*.log
+*.tmp
+*.bak
+*.saved
+*.orig
