@@ -761,6 +761,11 @@
               <FileType>1</FileType>
               <FilePath>..\IRQ\src\TIM_IRQHandler.c</FilePath>
             </File>
+            <File>
+              <FileName>CAN_IRQHandler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\IRQ\src\CAN_IRQHandler.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

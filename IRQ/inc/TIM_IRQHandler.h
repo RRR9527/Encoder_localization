@@ -4,7 +4,10 @@
 #include "main.h"
 #include "POSI_task.h"
 
-#define PERIOD 10
+#define PERIOD 100
+
+volatile extern Encoder encoder[2];
+volatile extern Odom odom;
 
 void TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 
